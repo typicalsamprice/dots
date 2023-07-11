@@ -11,3 +11,4 @@ link_to_conf_directly() {
 
 link_to_conf_directly "starship.toml"
 link_to_conf_directly "nvim"
+link_to_conf_directly "fish/config.fish"
