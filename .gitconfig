@@ -3,6 +3,6 @@
 	name = "Sam Price"
 [alias]
 	s = status --short
-    l = log --oneline
+	l = log --oneline
 [init]
-    defaultBranch = main
+	defaultBranch = main
