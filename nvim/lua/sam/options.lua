@@ -7,6 +7,8 @@ vim.o.tabstop = 4
 vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 
+vim.o.iskeyword = "@,48-57,192-255"
+
 vim.o.smartindent = true
 
 vim.o.wrap = false
