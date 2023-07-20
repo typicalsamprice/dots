@@ -41,6 +41,10 @@ vim.opt.isfname:append("@-@")
 vim.o.updatetime = 50
 vim.o.colorcolumn = "90"
 
-vim.o.foldlevel = 99
+vim.o.ttimeoutlen = 100
+
+vim.o.foldlevel = 3
 vim.o.foldmethod = "expr"
 vim.o.foldexpr = "nvim_treesitter#foldexpr()"
+
+vim.g.rustfmt_autosave = 1

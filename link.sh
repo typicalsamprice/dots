@@ -24,3 +24,4 @@ link_to_conf_directly "nvim"
 link_to_conf_directly "fish/config.fish"
 
 link_to_basedir "$HOME" ".gitconfig"
+link_to_basedir "$HOME" ".tmux.conf"
