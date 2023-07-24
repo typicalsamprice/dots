@@ -27,3 +27,4 @@ link_to_conf_directly "youtube-dl"
 
 link_to_basedir "$HOME" ".gitconfig"
 link_to_basedir "$HOME" ".tmux.conf"
+link_to_basedir "$HOME" ".zshrc"
