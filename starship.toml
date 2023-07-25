@@ -1,7 +1,13 @@
 # ➜
 
-format = "$directory$git_branch$status[➜](bold green) "
+format = """
+$directory\
+$git_branch\
+$status\
+[➜](bold green)  \
+"""
 
 [status]
 disabled = false
+style = 'bold red'
 format = '[\[$status\]]($style) '
