@@ -24,6 +24,7 @@ link_to_conf_directly "nvim"
 link_to_conf_directly "fish/config.fish"
 link_to_conf_directly "alacritty"
 link_to_conf_directly "youtube-dl"
+link_to_conf_directly "lynx"
 
 link_to_basedir "$HOME" ".gitconfig"
 link_to_basedir "$HOME" ".tmux.conf"
