@@ -27,7 +27,7 @@ autoload zmv
 alias vc='vorbiscomment'
 alias rl='source ~/.zshrc'
 
-alias lynx="lynx -cfg='${XDG_CONFIG_HOME:-${HOME}/.config}/lynx/lynx.cfg'"
+export LYNX_CFG="${XDG_CONFIG_HOME:-${HOME}/.config}/lynx/lynx.cfg"
 
 eval "$(starship init zsh)"
 
