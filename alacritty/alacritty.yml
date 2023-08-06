@@ -1,5 +1,4 @@
 font:
   normal:
-    # The Nerd Font version of Noto Sans Mono
-    family: RobotoMono Nerd Font
+    family: NotoSansM Nerd Font
   size: 16.0

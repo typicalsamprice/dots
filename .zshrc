@@ -22,6 +22,7 @@ export GIT_EDITOR="nvim"
 export EDITOR="nvim"
 
 export PATH="${PATH}:$HOME/.local/bin"
+export GOPATH="$HOME/code/go"
 
 autoload zmv
 alias vc='vorbiscomment'

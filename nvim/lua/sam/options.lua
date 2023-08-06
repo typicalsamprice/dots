@@ -47,4 +47,5 @@ vim.o.foldlevel = 3
 vim.o.foldmethod = "expr"
 vim.o.foldexpr = "nvim_treesitter#foldexpr()"
 
-vim.g.rustfmt_autosave = 1
+-- This is super slow
+vim.g.rustfmt_autosave = 0
